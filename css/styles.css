@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(65, 67, 68, 0.815);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+#nav-items {
+    display: flex;
+    gap: 10px;
+
+}
+
+.list-item {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../asset/images/real-estate-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    background-color: rgba(7, 1, 1, 0.219);
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+
+input {
+    padding: 18px;
+    width: 50%;
+}
+
+/* .input.bg {} */
+
+.search {
+    background-color: rgba(231, 9, 9, 0.815);
+    padding: 20px;
+    border: none;
+    color: white;
+}
+
+.main-section {
+    width: 100%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+
+}
+
+.main-container {
+    width: 50%;
+    margin: auto;
+
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 40;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.text-container {
+    width: 50%;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 2rem;
+}
+
+.text-container p {
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: rgba(15, 14, 14, 0.829);
+}
+
+.text-container a {
+    color: red;
+}
+
+
+.home-item img {
+    width: 100%;
+}
+
+.flex-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.flex-home h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.flex-home p {
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.flex-home a {
+    color: red;
+}
+
+.joint-button {
+    padding: 8px;
+    border: none;
+}
